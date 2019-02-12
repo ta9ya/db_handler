@@ -18,7 +18,7 @@ setup(
     long_description=readme,
     author='tiwa',
     author_email='t.iwasa0821@gmail.com',
-    url='https://github.com/kennethreitz/samplemod',
+    url='https://github.com/ta9ya/db_handler.git',
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
     install_requires=['requests', 'configparser', 'json', 'os']
