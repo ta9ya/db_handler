@@ -156,7 +156,7 @@ if __name__ == '__main__':
 		print(record_num)
 		count = mergen_list[0]['count']['value']
 
-		print(k.update_kintone(record_num, {'count': int(count) + 1}))
+		print(k.update_request(record_num, {'count': int(count) + 1}))
 
 	else:
 		raise ConnectionError
