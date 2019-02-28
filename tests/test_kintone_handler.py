@@ -18,3 +18,7 @@ class TestKintoneHandler(unittest.TestCase):
 
 	def test_get_request(self):
 		self.assertTrue(self.obj.get_request())
+
+
+if __name__ == '__main__':
+	unittest.main()

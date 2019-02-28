@@ -21,6 +21,7 @@ setup(
     url='https://github.com/ta9ya/db_handler.git',
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
-    install_requires=['requests', 'configparser', 'json', 'os']
+    install_requires=['requests'],
+    test_suite='tests'
 )
 
